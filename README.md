@@ -1,5 +1,5 @@
-Test
-====
+Project Template for Vue, Buefy, Django, and REST App
+=====================================================
 
 Short description
 
