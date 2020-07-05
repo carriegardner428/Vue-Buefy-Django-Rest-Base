@@ -37,7 +37,7 @@
 
 <script>
 export default {
-  name: 'TestMenu',
+  name: 'MenuComponent',
   data() {
     return {
       isActive: true

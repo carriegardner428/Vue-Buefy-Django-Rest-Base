@@ -3,13 +3,17 @@ import VueRouter from 'vue-router'
 
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import ExampleComponent from '@/components/ExampleComponent.vue'
-import TestMenu from '@/components/TestComponent.vue'
+import MenuComponent from '@/components/MenuComponent.vue'
+
+import AboutPage from '@/pages/AboutPage.vue'
+
 
 const routes = [
-  //{path: '*', component: ExampleComponent},
-  {path: '*', component: CarouselComponent},
-  {path: '/foo', component: TestMenu},
-  {path: '/bar', component: ExampleComponent}
+  {path: '/foo', component: MenuComponent, name: 'menu'},
+  {path: '/bar', component: ExampleComponent, name: 'example'},
+  {path: '/about', component: AboutPage, name: 'about'},
+  {path: '/', component: CarouselComponent, name: 'home'},
+  //{path: '*', component: 404PageNotFound}, //404
 ]
 
 Vue.use(VueRouter)
