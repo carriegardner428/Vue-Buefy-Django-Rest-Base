@@ -4,6 +4,7 @@ import router from '@/router'
 
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import "./vee-validate";
 
 Vue.use(Buefy)
 

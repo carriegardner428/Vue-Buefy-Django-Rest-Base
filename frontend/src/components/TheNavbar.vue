@@ -30,12 +30,16 @@
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Sign up</strong>
-                    </a>
-                    <a class="button is-light">
-                        Log in
-                    </a>
+                    <b-button tag="router-link"
+                        to="/sign-up"
+                        type="is-primary">
+                        Sign Up
+                    </b-button>
+                    <b-button tag="router-link"
+                        to="/login"
+                        type="is-light">
+                        Login
+                    </b-button>
                 </div>
             </b-navbar-item>
         </template>
